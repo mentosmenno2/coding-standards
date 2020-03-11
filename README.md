@@ -1,6 +1,8 @@
 [![GitHub Actions status](https://github.com/mentosmenno2/coding-standards/workflows/Build%20%26%20test/badge.svg)](https://github.com/mentosmenno2/coding-standards/actions)
 
-# Mentosmenno2 Coding standards
+# Mentosmenno2 Coding Standards
+
+Coding standards for multiple project types.
 
 ## Installation
 
