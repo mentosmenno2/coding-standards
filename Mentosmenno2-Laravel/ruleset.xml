@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Mentosmenno2 Laravel Coding Standards" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
+
+	<description>Mentosmenno2 Global Laravel Coding Standards.</description>
+
+	<arg name="colors"/>
+	<arg value="sp"/>
+
+	<rule ref="PHPCompatibility"/>
+	<config name="testVersion" value="7.1-"/>
+
+	<rule ref="PSR2"/>
+
+	<rule ref="Squiz.PHP.CommentedOutCode"/>
+	<rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
+	<rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"/>
+	<rule ref="Generic.Commenting.Todo"/>
+	<rule ref="Generic.ControlStructures.InlineControlStructure"/>
+</ruleset>

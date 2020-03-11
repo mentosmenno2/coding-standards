@@ -1,0 +1,22 @@
+{
+    "name": "mentosmenno2/coding-standards",
+    "description": "Menno van den Ende Coding Standards",
+    "type": "phpcodesniffer-standard",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "mentosmenno2",
+            "email": "mentosmenno2@hotmail.com"
+        }
+    ],
+    "scripts": {
+        "install-codestandards": [
+            "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+        ]
+    },
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "wp-coding-standards/wpcs": "^2.2"
+    }
+}
