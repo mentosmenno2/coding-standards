@@ -9,14 +9,17 @@
             "email": "mentosmenno2@hotmail.com"
         }
     ],
-    "scripts": {
-        "install-codestandards": [
-            "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
-        ]
-    },
     "require": {
         "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2",
         "phpcompatibility/php-compatibility": "^9.3",
         "wp-coding-standards/wpcs": "^2.2"
+    },
+    "scripts": {
+        "install-codestandards": [
+            "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+        ],
+        "test": [
+            "composer validate"
+        ]
     }
 }
