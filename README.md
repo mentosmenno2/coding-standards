@@ -2,7 +2,7 @@
 
 # Mentosmenno2 Coding standards
 
-## installation
+## Installation
 
 Add the repo to the project by adding this in the `composer.json` file.
 
