@@ -14,12 +14,14 @@ Add the repo to the project by adding this in the `composer.json` file.
         "url": "https://github.com/mentosmenno2/coding-standards.git",
         "type": "git"
     }
-],
+]
 ```
 
 Install this dependency with composer.
 
-`composer require mentosmenno2/coding-standards --dev`
+```sh
+composer require mentosmenno2/coding-standards --dev
+```
 
 ## Configuration
 
