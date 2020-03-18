@@ -13,6 +13,7 @@
 
 	<rule ref="PSR2">
 		<exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
+		<exclude name="Generic.Files.LineLength.TooLong"/>
 	</rule>
 	
 	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
