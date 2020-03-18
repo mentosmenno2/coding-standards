@@ -12,7 +12,6 @@
 	<rule ref="PSR2"/>
 
 	<rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
-	<rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"/>
 	<rule ref="Generic.Commenting.Todo"/>
 	<rule ref="Generic.ControlStructures.InlineControlStructure"/>
 </ruleset>
