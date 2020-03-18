@@ -1,8 +1,10 @@
 [![GitHub Actions status](https://github.com/mentosmenno2/coding-standards/workflows/Build%20%26%20test/badge.svg)](https://github.com/mentosmenno2/coding-standards/actions)
 
-# Mentosmenno2 Coding standards
+# Mentosmenno2 Coding Standards
 
-## installation
+Coding standards for multiple project types.
+
+## Installation
 
 Add the repo to the project by adding this in the `composer.json` file.
 
@@ -12,12 +14,14 @@ Add the repo to the project by adding this in the `composer.json` file.
         "url": "https://github.com/mentosmenno2/coding-standards.git",
         "type": "git"
     }
-],
+]
 ```
 
 Install this dependency with composer.
 
-`composer require mentosmenno2/coding-standards --dev`
+```sh
+composer require mentosmenno2/coding-standards --dev
+```
 
 ## Configuration
 
