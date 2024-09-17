@@ -7,7 +7,6 @@
 	<arg value="sp"/>
 
 	<rule ref="PHPCompatibility"/>
-	<config name="testVersion" value="7.1-"/>
 
 	<arg name="tab-width" value="4"/>
 
