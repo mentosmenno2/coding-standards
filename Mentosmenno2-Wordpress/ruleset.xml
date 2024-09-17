@@ -6,9 +6,6 @@
 	<arg name="colors"/>
 	<arg value="sp"/>
 
-	<rule ref="PHPCompatibility"/>
-	<config name="testVersion" value="7.1-"/>
-
 	<rule ref="PSR2.Files.ClosingTag"/>
 
 	<rule ref="Squiz.PHP.CommentedOutCode"/>
