@@ -23,6 +23,7 @@
 		<exclude name="WordPress.WP.I18n.MissingTranslatorsComment" clarification="Customer will handle translations themselves" />
 		<exclude name="WordPress.PHP.DisallowShortTernary.Found" />
 		<exclude name="WordPress.PHP.YodaConditions.NotYoda" />
+		<exclude name="Universal.Operators.DisallowShortTernary.Found" />
 	</rule>
 	<rule ref="WordPress-Extra"/>
 </ruleset>
